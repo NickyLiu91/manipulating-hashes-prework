@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  array = groceries[:dairy].values
+  array = groceries.values
   array
 
 end
