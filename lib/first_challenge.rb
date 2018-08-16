@@ -16,9 +16,9 @@ def first_challenge
   #your code here
   contacts.each do |key, value|
     if key == "Freddy Mercury"
-      contacts[key][favorite_icecream_flavors:].each do |flavor|
+      contacts[key][:favorite_icecream_flavors].each do |flavor|
         if flavor == "strawberry"
-          contacts[key][favorite_icecream_flavors:].delete("strawberry")
+          contacts[key][:favorite_icecream_flavors].delete("strawberry")
         end
       end
     end
